@@ -2,16 +2,21 @@
   "name": "zadanie_19.3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "actions.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkfbrzozowski/zadanie_19.3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/dkfbrzozowski/zadanie_19.3/issues"
   },
+  "homepage": "https://github.com/dkfbrzozowski/zadanie_19.3#readme",
   "dependencies": {
     "uuid": "^3.2.1"
   }
