@@ -44,24 +44,22 @@ const boundRemoveComment = id => dispatch(removeComment(id));
 
 // THUMB UP COMMENT
 
-const thumbUpComment = (id, likes) => {
+const thumbUpComment = (id) => {
     return {
         type: THUMB_UP_COMMENT,
-        id,
-        likes: ++likes
+        id
     }
 };
 
-const boundThumbUpComment = (id, likes) => dispatch(thumbUpComment(id, likes));
+const boundThumbUpComment = (id) => dispatch(thumbUpComment(id));
 
 // THUMB DOWN COMMENT
 
-const thumbDownComment = (id, dislikes) => {
+const thumbDownComment = (id) => {
     return {
         type: THUMB_DOWN_COMMENT,
-        id,
-        dislikes: ++dislikes
+        id
     }
 }
 
-const boundThumbDownComment = (id, likes) => dispatch(thumbDownComment(id, dislikes));
+const boundThumbDownComment = (id) => dispatch(thumbDownComment(id));

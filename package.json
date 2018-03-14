@@ -1,23 +1,14 @@
 {
   "name": "zadanie_19.3",
   "version": "1.0.0",
-  "description": "",
   "main": "actions.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dkfbrzozowski/zadanie_19.3.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dkfbrzozowski/zadanie_19.3/issues"
-  },
-  "homepage": "https://github.com/dkfbrzozowski/zadanie_19.3#readme",
   "dependencies": {
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "redux": "^3.7.2"
   }
 }
